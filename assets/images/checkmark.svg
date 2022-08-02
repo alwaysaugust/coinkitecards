@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Organization / Status / checkmark--filled / 32</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Submit-Art-Success" transform="translate(-692.000000, -285.000000)" fill="#000000">
+            <g id="Group-11" transform="translate(519.000000, 224.000000)">
+                <g id="Organization-/-Status-/-checkmark--filled-/-32" transform="translate(169.000000, 57.000000)">
+                    <path d="M32,4 C16.536027,4 4,16.536027 4,32 C4,47.463973 16.536027,60 32,60 C47.463973,60 60,47.463973 60,32 C60,24.5739383 57.0500085,17.4520287 51.7989899,12.2010101 C46.5479713,6.94999153 39.4260617,4 32,4 Z M28,43.1816 L18,33.1816 L21.1812,30 L28,36.8184 L42.82,22 L46.0114,25.1718 L28,43.1816 Z" id="Fill"></path>
+                    <polygon id="Inner-Fill" opacity="0" points="28 43.182 18 33.182 21.182 30 28 36.818 42.82 22 46.01 25.17"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

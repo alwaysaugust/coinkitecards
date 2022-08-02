@@ -1,0 +1,25 @@
+<script src="//coinkite.com/static/banner/banner.js"></script>
+<script src="/assets/js/axios.min.js"></script>
+<script src="/assets/js/cards.js"></script>
+
+{% if page.name == "sdk.markdown" %}
+  <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+  <script>
+    (function() {
+      const sdkContainer = document.querySelector('.sdk');
+      axios.get('https://raw.githubusercontent.com/coinkite/coinkite-tap-proto/master/README.md')
+        .then(function(response) {
+          if (response.data) {
+            let converter = new showdown.Converter();
+            sdkContainer.innerHTML = converter.makeHtml(response.data);
+            let links = sdkContainer.querySelectorAll('a');
+            links.forEach(function(link) {
+              if (link.getAttribute('href').indexOf('http') !== 0) {
+                link.setAttribute('href', 'https://dev.coinkite.cards/' + link.getAttribute('href').replace(/.md$/, '.html'));
+              }
+            });
+          }
+        });
+    })();
+  </script>
+{% endif %}
